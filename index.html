@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pokemon icon css</title>
+        <style>
+            body{
+                background : #6CB3A9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 100px;
+            }
+            .main{
+                width: 200px;
+                height: 200px;
+                background: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+            .main::before{
+                content: "";
+                position: absolute;
+                height: 100px;
+                width: 200px;
+                top: 0px;
+                background: #D25879;
+            }
+            .carrel{
+                height: 20px;
+                width: 200px;
+                background: #6CB3A9;
+                position: absolute;
+            }
+            .carre{
+                height: 20px;
+                width: 180px;
+                background: #781728;
+                position: absolute;
+            }
+            .center{
+                height: 50px;
+                width: 50px;
+                position: absolute;
+                background: #F6DF96;
+                border-radius: 50%;
+                border: solid 10px #781728;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="carrel"> </div>
+                <div class="carre"> </div>
+                <div class="center"> </div>
+
+                
+            
+        </div>
+    </body>
+</html>
